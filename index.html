@@ -1,116 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="sidebar">
-            <h3>Dashboard</h3>
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
+      <div class="sidebar">
+        <h3>Dashboard</h3>
+        <ul>
+          <div>
+            <img src="icons/home.svg" alt="home" width="25px" />
+            <li>Home</li>
+          </div>
+          <div>
+            <img src="icons/profile.svg" alt="profiles" width="25px" />
+            <li>Profile</li>
+          </div>
+          <div>
+            <img src="icons/messages.svg" alt="messages" width="25px" />
+            <li>Messages</li>
+          </div>
+          <div>
+            <img src="icons/history.svg" alt="history" width="25px" />
+            <li>History</li>
+          </div>
+          <div>
+            <img src="icons/tasks.svg" alt="tasks" width="25px" />
+            <li>Tasks</li>
+          </div>
+          <div>
+            <img src="icons/communities.svg" alt="communities" width="25px" />
+            <li>Communities</li>
+          </div>
+          <div>
+            <img src="icons/settings.svg" alt="settings" width="25px" />
+            <li>Settings</li>
+          </div>
+          <div>
+            <img src="icons/support.svg" alt="support" width="25px" />
+            <li>Support</li>
+          </div>
+          <div>
+            <img src="icons/privacy.svg" alt="privacy" width="25px" />
+            <li>Privacy</li>
+          </div>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="top-left">
+          <div class="search">Search</div>
         </div>
-        <div class="header">
-            <div class="top-left">
-                <div class="search">Search</div>
-            </div>
-            <div class="top-right">
-                <button class="notification"></button>
-                <p>Craig Taylor</p>
-            </div>
-            <div class="bottom-left">
-                <p>Hi there,</p>
-                <p>Craig Taylor (@craig)</p>
-            </div>
-            <div class="bottom-right">
-                <button class="new">New</button>
-                <button class="upload">Upload</button>
-                <button class="share">Share</button>
-            </div>
+        <div class="top-right">
+          <button class="notification"></button>
+          <p>Craig Taylor</p>
         </div>
-        <div class="main-content">
-            <div class="your-projects">
-                <div>
-                    <h3>Your Projects</h3>
-                </div>
-                <div>
-                    <h3>Super Cool Project</h3>
-                    <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilsis felis accumsan nec.</p>
-                </div>
-                <div>
-                    <h3>Less Cool Project</h3>
-                    <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
-                </div>
-                <div>
-                    <h3>Impossible App</h3>
-                    <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
-                </div>
-                <div>
-                    <h3>Easy Peasy App</h3>
-                    <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
-                </div>
-                <div>
-                    <h3>Ad Blocker</h3>
-                    <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pjaretra hendrerit felis. Aliquam sed malesuada eros.</p>
-                </div>
-                <div>
-                    <h3>Money Maker</h3>
-                    <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit arnet ex. Pellentesque mollis nec sem vel aliquam</p>
-                </div>
-            </div>
-            <div class="announcements">
-                <div>
-                    <h3>Announcements</h3>
-                </div>
-                <div>
-                    <h5>Site Maintenance</h5>
-                    <p>Vestibulum condimentum tellus lacus, in accumssan elit maximus ac. Donec henderit sodales congue...</p>
-                </div>
-                <div>
-                    <h5>Community Share Day</h5>
-                    <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
-                </div>
-                <div>
-                    <h5>Updated Privacy Policy</h5>
-                    <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
-                </div>
-                
-            </div>
-            <div class="trending">
-                <div>
-                    <h3>Trending</h3>
-                </div>
-                <div>
-                    <p class="username">@tegan</p>
-                    <p class="subtitle">World Peace Builder</p>
-                </div>
-                <div>
-                    <p class="username">@morgan</p>
-                    <p class="subtitle">Super Cool Project</p>
-                </div>
-                <div>
-                    <p class="username">@kendall</p>
-                    <p class="subtitle">Life Changing App</p>
-                </div>
-                <div>
-                    <p class="username">@alex</p>
-                    <p class="subtitle">No Traffic Maker</p>
-                </div>
-            </div>
+        <div class="bottom-left">
+          <p>Hi there,</p>
+          <p>Craig Taylor (@craig)</p>
         </div>
+        <div class="bottom-right">
+          <button class="new">New</button>
+          <button class="upload">Upload</button>
+          <button class="share">Share</button>
+        </div>
+      </div>
+      <div class="main-content">
+        <p>Your Projects</p>
+        <div class="your-projects">
+          <div>
+            <h3>Super Cool Project</h3>
+            <p>
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilsis felis accumsan nec.
+            </p>
+          </div>
+          <div>
+            <h3>Less Cool Project</h3>
+            <p>
+              Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque
+              sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis
+              sem purus, dignissim ut sapien in, varius pellentesque lacus.
+            </p>
+          </div>
+          <div>
+            <h3>Impossible App</h3>
+            <p>
+              In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+              placerat velit sagittis id.
+            </p>
+          </div>
+          <div>
+            <h3>Easy Peasy App</h3>
+            <p>
+              Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+              urna eget accumsan aliquam. Curabitur dignissim nisi in tortor
+              commodo, ac bibendum magna tincidunt.
+            </p>
+          </div>
+          <div>
+            <h3>Ad Blocker</h3>
+            <p>
+              Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel,
+              pjaretra hendrerit felis. Aliquam sed malesuada eros.
+            </p>
+          </div>
+          <div>
+            <h3>Money Maker</h3>
+            <p>
+              Praesent convallis, libero quis congue elementum, nunc ante
+              faucibus sapien, ac scelerisque tortor purus sit arnet ex.
+              Pellentesque mollis nec sem vel aliquam
+            </p>
+          </div>
+        </div>
+        <div class="announcements">
+          <p>Announcements</p>
+          <div>
+            <h5>Site Maintenance</h5>
+            <p>
+              Vestibulum condimentum tellus lacus, in accumssan elit maximus ac.
+              Donec henderit sodales congue...
+            </p>
+          </div>
+          <div>
+            <h5>Community Share Day</h5>
+            <p>
+              Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam
+              dictum accumsan porttitor...
+            </p>
+          </div>
+          <div>
+            <h5>Updated Privacy Policy</h5>
+            <p>
+              Phasellus efficitur nisi eget elit consectetur, eget condimentum
+              ante auctor. Cras fringilla sagittis sem in mattis...
+            </p>
+          </div>
+        </div>
+        <div class="trending">
+          <p>Trending</p>
+          <div>
+            <p class="username">@tegan</p>
+            <p class="subtitle">World Peace Builder</p>
+          </div>
+          <div>
+            <p class="username">@morgan</p>
+            <p class="subtitle">Super Cool Project</p>
+          </div>
+          <div>
+            <p class="username">@kendall</p>
+            <p class="subtitle">Life Changing App</p>
+          </div>
+          <div>
+            <p class="username">@alex</p>
+            <p class="subtitle">No Traffic Maker</p>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
