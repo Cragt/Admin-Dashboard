@@ -37,10 +37,12 @@
 
 .top-left {
   grid-area: 1 / 1 / 2 / 2;
+  /* display: flex; */
 }
 
 .top-right {
   grid-area: 1 / 2 / 2 / 3;
+  /* display: flex; */
 }
 
 .bottom-left {
@@ -77,4 +79,13 @@
 
 .trending {
   grid-column: 2 / 3;
+}
+
+input[type="text"],
+textarea {
+  background-color: #e2e8f0;
+  border: none;
+  width: 400px;
+  height: 25px;
+  border-radius: 15px;
 }
