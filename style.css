@@ -35,6 +35,10 @@ body {
   gap: 20px;
 }
 
+.sidebar > ul > li > p {
+  cursor: pointer;
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -137,6 +141,19 @@ form {
   width: 400px;
   border-left: 8px solid #f0957e;
   padding-left: 10px;
+  display: grid;
+}
+
+.icons {
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+img {
+  cursor: pointer;
 }
 
 h3 {
@@ -175,10 +192,9 @@ h3 {
 .trending {
   grid-column: 2 / 3;
   background-color: white;
-  padding-left: 10px;
-  padding-right: 10px;
   display: grid;
   border-radius: 10px;
+  padding: 10px;
 }
 
 .trending > div > img {
