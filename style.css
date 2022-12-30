@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: robotoregular;
 }
 
 .container {
@@ -58,7 +59,7 @@ form {
   gap: 20px;
   justify-content: right;
   margin-right: 50px;
-  font-weight: bold;
+  font-family: robotobold;
 }
 
 .bottom-left {
@@ -80,9 +81,9 @@ form {
 }
 
 .bottom-left > p:nth-child(3) {
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   margin: 0;
+  font-family: robotobold;
 }
 
 .bottom-right {
@@ -114,7 +115,7 @@ form {
 
 .main-content > p {
   margin-left: 20px;
-  font-weight: bold;
+  font-family: robotobold;
   position: absolute;
 }
 
@@ -136,6 +137,10 @@ form {
   width: 400px;
   border-left: 8px solid #f0957e;
   padding-left: 10px;
+}
+
+h3 {
+  font-family: robotobold;
 }
 
 .right-side {
@@ -206,7 +211,7 @@ input[type="text"],
 textarea {
   background-color: #e2e8f0;
   border: none;
-  width: 400px;
+  width: 500px;
   height: 25px;
   border-radius: 15px;
 }
